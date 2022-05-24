@@ -4,14 +4,12 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
   $("button").click(function(){
     $.getJSON("https://json.geoiplookup.io/?callback=?", function(result){
         document.getElementById("demo").content = result.ip;
       });
     });
   });
-});
 </script>
   
 <title>Website Name</title>
