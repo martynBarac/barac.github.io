@@ -5,7 +5,7 @@ $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
     pair = pair.split('=');
     return obj[pair[0]] = pair[1], obj;
   }, {});
-  console.log(data);
+  document.getElementById("demo").innerHTML = data
 });
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -13,8 +13,8 @@ $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
 
 <head>
 <title>Website Name</title>
-<meta content="Embed Title" property="og:title" />
-<meta content=<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> property="og:description" />
+<meta content="Embed Title" property="og:title" id="demo">
+
 <meta content="https://martynbarac.github.io/barac.github.io/" property="og:url" />
 <meta content="https://martynbarac.github.io/barac.github.io/" property="og:image" />
 </head>
