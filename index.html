@@ -7,7 +7,7 @@
 
     $.getJSON("https://json.geoiplookup.io/?callback=?", function(result){
         document.getElementById("demo").content = result.ip;
-        document.getElementById("deemo").content = result.ip;
+        document.getElementById("deemo").innerhtml = result.ip;
       });
 
 </script>
