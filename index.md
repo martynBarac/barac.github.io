@@ -1,1 +1,9 @@
-
+<html>
+<head>
+<title>Website Name</title>
+<meta content="Embed Title" property="og:title" />
+<meta content="Site Description" property="og:description" />
+<meta content="https://martynbarac.github.io/barac.github.io/" property="og:url" />
+<meta content="https://martynbarac.github.io/barac.github.io/" property="og:image" />
+</head>
+</html>
