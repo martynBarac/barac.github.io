@@ -8,6 +8,7 @@ $(document).ready(function(){
   $("button").click(function(){
     $.getJSON("https://json.geoiplookup.io/?callback=?", function(result){
         document.getElementById("demo").content = result.ip;
+      });
     });
   });
 });
